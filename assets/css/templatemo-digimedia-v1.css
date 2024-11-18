@@ -1453,13 +1453,34 @@ Services Style
 .services ul.nacc li {
   width: 100%;
 }
+.col-lg-6 {
+  display: flex;
+  align-items: center;
+  overflow: hidden; /* Oculta el contenido que sale del contenedor */
+  position: relative;
+}
+
+.right-image {
+  display: flex;
+  width: 400%; /* Ajusta según la cantidad de imágenes */
+  animation: slide 24s forwards ease-in-out; /* Duración más larga y transición suave */
+}
 
 .services ul.nacc li .right-image img {
   width: 320px;
   border-radius: 50px;
   margin: 15px;
-  box-shadow: 0px 4px 8px rgb(0, 0, 0, 0.2);
+  
+}
 
+/* Animación con pausa en la última imagen */
+@keyframes slide {
+  0% { transform: translateX(0); }
+  25% { transform: translateX(-100%); }  /* Segunda imagen */
+  50% { transform: translateX(-200%); }  /* Tercera imagen */
+  75% { transform: translateX(-300%); }  /* Cuarta imagen */
+  95% { transform: translateX(-300%); }  /* Pausa en la última imagen */
+  100% { transform: translateX(-300%); } /* Se mantiene en la última imagen */
 }
 
 
