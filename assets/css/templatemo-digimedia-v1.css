@@ -1483,7 +1483,7 @@ Services Style
 
 }
 
-/* Animación con pausa en la última imagen */
+/* Animación con pausa en la última imagen *//*Carrusel de Galeria*/
 @keyframes slide {
   0% { transform: translateX(0); }
   25% { transform: translateX(-100%); }  /* Segunda imagen */
