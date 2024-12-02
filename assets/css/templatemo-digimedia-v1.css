@@ -183,11 +183,11 @@ body {
 }
 
 .section-heading h6 {
-  font-size: 15px;
+  font-size: 28px;
   font-weight: 700;
   color: #726ae3;
   text-transform: uppercase;
-  margin-bottom: 15px;
+  margin-bottom: 50px;
 }
 
 .section-heading h4 {
@@ -219,11 +219,12 @@ body {
   display: inline-block !important;
   padding: 10px 20px !important;
   color: #fa65b1 !important;
-  border: 1px solid #fa65b1 !important;
+  border: 1px solid #922f62 !important;
   border-radius: 23px;
-  font-weight: 500 !important;
+  font-weight: 700 !important;
   letter-spacing: 0.3px !important;
   transition: all .5s;
+  font-size: 30px;
 }
 
 .border-first-button a:hover {
@@ -1560,6 +1561,7 @@ Free Quote
 
 .free-quote .section-heading {
   margin-bottom: 60px;
+  
 }
 
 .free-quote .section-heading h6,
@@ -1624,6 +1626,7 @@ Portfolio
   padding-top: 130px;
   overflow: hidden;
   position: relative;
+  
 }
 
 .our-portfolio:before {
@@ -1646,10 +1649,12 @@ Portfolio
   width: 677px;
   height: 759px;
   z-index: 1;
+
 }
 
 .our-portfolio .section-heading {
-  margin-bottom: 80px;
+  margin-bottom: 25px; 
+
 }
 
 .our-portfolio .container-fluid {
@@ -1662,12 +1667,14 @@ Portfolio
 .our-portfolio .item {
   position: relative;
   z-index: 222;
+  
 }
 
 .portfolio-item {
   border-radius: 25px;
   box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
   margin: 15px;
+  
 }
 
 .portfolio-item .thumb {
@@ -1678,6 +1685,7 @@ Portfolio
 .portfolio-item:hover .down-content h4,
 .portfolio-item:hover .down-content span {
   color: #fa65b1;
+  
 }
 
 .portfolio-item .thumb img {
