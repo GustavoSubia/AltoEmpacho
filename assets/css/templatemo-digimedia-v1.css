@@ -180,6 +180,7 @@ body {
 .section-heading {
   position: relative;
   z-index: 2;
+
 }
 
 .section-heading h6 {
@@ -196,6 +197,7 @@ body {
   font-weight: 700;
   text-transform: capitalize;
   margin-bottom: 25px;
+
 }
 
 .section-heading h4 em {
@@ -1063,6 +1065,8 @@ Banner Style
   text-align: right;
   position: relative;
   z-index: 20;
+  height: 600px;
+  width: 600px;
 }
 
 .main-banner .right-image img {
