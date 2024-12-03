@@ -1908,7 +1908,12 @@ Blog
   line-height: 30px;
 }
 
-
+.jesusm{
+  border-radius: 30px;
+  height: 200px;
+  width: 200px;
+  
+}
 /* 
 ---------------------------------------------
 contact
@@ -2134,7 +2139,7 @@ responsive
     font-size: 20px;
   }
   .main-banner .left-content {
-    margin-right: 0px;
+    ce: 0px;
   }
   .main-banner {
     text-align: center;
