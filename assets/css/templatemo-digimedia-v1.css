@@ -348,7 +348,8 @@ header
 
 .pre-header {
   background-color: rgb(242, 216, 242);
-  height: 60px;
+  height: auto;
+  width: auto;
   padding: 15px 0px;
 }
 
@@ -2092,6 +2093,7 @@ Footer Style
 */
 
 footer {
+  background-color: #fa9acc;
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
