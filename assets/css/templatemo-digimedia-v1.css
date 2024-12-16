@@ -1340,8 +1340,8 @@ Services Style
 --------------------------------------------- 
 */
 .talle{
-  border-radius: 60px;
-
+  border-radius: 100px;
+  
 
 }
 
@@ -1472,34 +1472,36 @@ Services Style
 }
 .col-lg-6 {
   display: flex;
-  align-items: center;
-  overflow: hidden; /* Oculta el contenido que sale del contenedor */
-  position: relative;
-  
+  flex-direction: column;  /* Coloca las imágenes en columna */
+  align-items: center;     /* Centra las imágenes horizontalmente */
+  justify-content: center; /* Centra las imágenes verticalmente si es necesario */
+  height: 100%;            /* Asegura que ocupe toda la altura disponible */
 }
 
 .right-image {
   display: flex;
-  width: 500%; /* Ajusta según la cantidad de imágenes */
-  animation: slide 24s forwards ease-in-out; /* Duración más larga y transición suave */
-
+  flex-direction: column;  /* Asegura que las imágenes dentro de .right-image se alineen en columna */
+  align-items: center;     /* Centra las imágenes dentro de .right-image */
 }
 
 .services ul.nacc li .right-image img {
-  width: 400px;
+  width: 300px;
+  height: 300px;
   border-radius: 50px;
   margin: 15px;
-
+  border: solid 12px pink; /* Borde rosado de 12px */
 }
 
-/* Animación con pausa en la última imagen */
+
+/* Animación con pausa en la última imagen 
 @keyframes slide {
   0% { transform: translateX(0); }
-  25% { transform: translateX(-100%); }  /* Segunda imagen */
-  50% { transform: translateX(-200%); }  /* Tercera imagen */
-  75% { transform: translateX(-300%); }  /* Cuarta imagen */
-  100% { transform: translateX(-300%); } /* Se mantiene en la última imagen */
+  25% { transform: translateX(-100%); }  
+  50% { transform: translateX(-200%); }  
+  75% { transform: translateX(-300%); }  
+  100% { transform: translateX(-300%); } 
 }
+  */
 
 
 .services .nacc .thumb h4 {
@@ -1977,14 +1979,16 @@ form#contact {
 }
 
 
-.img1{
+.img1 {
   border: solid #edc5e0;
   border-radius: 25px;
-  height: auto;
-  width: 400px;
-  margin: 40px 15px 0px 55px;
-
+  width: 100%;              /* Hace que la imagen ocupe el 100% del ancho del contenedor */
+  max-width: 400px;         /* Limita el tamaño máximo de la imagen (a 400px en este caso) */
+  height: auto;             /* Mantiene la proporción de la imagen */
+  margin: 40px auto 0;      /* Centra la imagen horizontalmente */
+  display: block;           /* Asegura que la imagen sea un bloque, para que el margen automático funcione */
 }
+
 .logo2{
   height: 220px;
   width: 220px;
@@ -2144,7 +2148,7 @@ responsive
     font-size: 20px;
   }
   .main-banner .left-content {
-    ce: 0px;
+    margin: 0px;
   }
   .main-banner {
     text-align: center;
