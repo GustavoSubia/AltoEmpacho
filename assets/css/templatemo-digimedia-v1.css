@@ -1063,18 +1063,18 @@ Banner Style
 }
 
 .main-banner .right-image {
-  text-align: right;
+  text-align: right; 
   position: relative;
   z-index: 20;
-  height: 600px;
-  width: 600px;
+  height: auto;
+  max-width: 600px;
 }
 
 .main-banner .right-image img {
-  max-width: 450x;
+  max-width: 100%;
   height: auto;
+  border: solid rgb(247, 200, 208);
 }
-
 
 
 /* 
@@ -1881,6 +1881,7 @@ Blog
   border-radius: 23px;
   display: inline-block;
   width: 500px;
+  border: solid 4px rgb(248, 193, 203);
 }
 
 .post-item .right-content {
