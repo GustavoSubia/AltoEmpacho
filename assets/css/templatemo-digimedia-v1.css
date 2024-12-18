@@ -510,6 +510,9 @@ header
 .header-area .main-nav .nav li {
   padding-left: 20px;
   padding-right: 20px;
+  justify-content: center;
+  text-align: center;
+  display: flow-root;
 }
 
 .header-area .main-nav .nav li:last-child {
@@ -542,6 +545,7 @@ header
   line-height: 40px;
   border: transparent;
   letter-spacing: 1px;
+
 }
 
 .header-area .main-nav .nav li:hover a,
