@@ -1345,8 +1345,8 @@ Services Style
 */
 .talle{
   border-radius: 100px;
+  border: solid 5px rgb(245, 197, 205);
   
-
 }
 
 
@@ -1998,7 +1998,7 @@ form#contact {
   height: 220px;
   width: 220px;
   margin-top: -30px;
-  margin-right: -50px;
+  margin-right: 3px;
 }
 .fill-form {
   padding: 80px 60px 80px 30px;
