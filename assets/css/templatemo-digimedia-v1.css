@@ -358,8 +358,17 @@ header
 }
 
 .pre-header ul.info li {
+  display: inline-block;
   margin-right: 20px;
 }
+@media (max-width: 767px) {
+  .pre-header ul.info li {
+    display: block;
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+}
+
 
 .pre-header ul.info li a {
   color: #a75208;
